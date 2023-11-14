@@ -7,6 +7,7 @@
 #include <limits.h>
 int _printf(const char *format, ...);
 int _putchar(char c);
+int printf_binary(unsigned int num, int printed);
 int printf_ch(va_list args, int printed);
 int printf_strg(va_list args, int printed);
 int printf_modulus(void);
